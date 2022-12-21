@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: #1F2937;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background: #6943FF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 38px;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 35px;
+}
+
+#unit-input{
+    font-size: 58px;
+    font-weight: 700;
+    padding: 12px 0;
+    width: 120px;
+    text-align: center;
+    border: 2px solid #B295FF;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+#convert-btn{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #3D3D3D;
+    background: #fff;
+    padding: 12px 0;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+
+}
+
+section{
+    height: auto;
+    margin: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container{
+    background: #273549;
+    max-width: 500px;
+    width: 100%;
+    min-height: 110px;
+    height: auto;
+    border-radius: 5px;
+    margin: 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2{
+    color: #CCC1FF;    
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.container p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+@media only screen and (max-width: 400px) {
+    .container p{
+        font-size: .7em;
+    }
+}
